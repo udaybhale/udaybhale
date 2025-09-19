@@ -28,9 +28,10 @@
 ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)  
 
 **Networking / Security:**  
-![Cisco](https://img.shields.io/badge/Cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=white) ![Wireshark](https://img.shields.io/badge/Wireshark-%231572B6.svg?style=for-the-badge&logo=wireshark&logoColor=white) ![Nmap](https://img.shields.io/badge/Nmap-%23000000.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Burp Suite](https://img.shields.io/badge/Burp%20Suite-%23FF6C37.svg?style=for-the-badge&logo=burpsuite&logoColor=white) ![Metasploit](https://img.shields.io/badge/Metasploit-000000?style=plastic&logo=metasploit&logoColor=white)
-![SQLmap](https://img.shields.io/badge/SQLmap-FFD700?style=plastic&logo=sqlite&logoColor=black)
-![Hydra](https://img.shields.io/badge/Hydra-2E8B57?style=plastic&logo=gnometerminal&logoColor=white) 
+![Cisco](https://img.shields.io/badge/Cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=white) ![Wireshark](https://img.shields.io/badge/Wireshark-%231572B6.svg?style=for-the-badge&logo=wireshark&logoColor=white) ![Nmap](https://img.shields.io/badge/Nmap-%23000000.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Burp Suite](https://img.shields.io/badge/Burp%20Suite-%23FF6C37.svg?style=for-the-badge&logo=burpsuite&logoColor=white) ![Metasploit](https://img.shields.io/badge/Metasploit-000000?style=for-the-badge&logo=metasploit&logoColor=white)
+![SQLmap](https://img.shields.io/badge/SQLmap-FFD700?style=for-the-badge&logo=sqlite&logoColor=black)
+![Hydra](https://img.shields.io/badge/Hydra-2E8B57?style=for-the-badge&logo=gnometerminal&logoColor=white)
+
 
 **OS & Tools:**  
 ![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)   ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) 
