@@ -8,11 +8,7 @@
 
 ---
 
-## <picture><img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/about_me.gif" width="50px"></picture> **About Me**
-
-<picture> 
-  <img align="right" src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/Right_Side.gif" width="250px">
-</picture>
+## 🚀 About Me  
 
 - 💻 Passionate about **Offensive Security & Ethical Hacking**  
 - 🔒 Skilled in **Networking, Linux, and Cybersecurity basics**  
@@ -23,27 +19,25 @@
 
 ---
 
-## 🛠️ **Skills & Tools**
+## 🛠️ Skills & Tools  
 
-<p align="center">
+**Languages:**  
+![C](https://img.shields.io/badge/C-%232370ED.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/Python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)  
 
-- **Languages**  
-  ![Python](https://img.shields.io/badge/Python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white)  
-  ![SQL](https://img.shields.io/badge/SQL-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+**Front-End Development:**  
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)  
 
-- **Networking / Security**  
-  ![Cisco](https://img.shields.io/badge/Cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=white)  
-  ![Wireshark](https://img.shields.io/badge/Wireshark-%231572B6.svg?style=for-the-badge&logo=wireshark&logoColor=white)  
-  ![Nmap](https://img.shields.io/badge/Nmap-%23000000.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)  
-  ![Burp Suite](https://img.shields.io/badge/Burp%20Suite-%23FF6C37.svg?style=for-the-badge&logo=burpsuite&logoColor=white)  
+**Networking / Security:**  
+![Cisco](https://img.shields.io/badge/Cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=white) ![Wireshark](https://img.shields.io/badge/Wireshark-%231572B6.svg?style=for-the-badge&logo=wireshark&logoColor=white) ![Nmap](https://img.shields.io/badge/Nmap-%23000000.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Burp Suite](https://img.shields.io/badge/Burp%20Suite-%23FF6C37.svg?style=for-the-badge&logo=burpsuite&logoColor=white)  
 
-- **OS & Tools**  
-  ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)  
-  ![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)  
-  ![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)  
-  ![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)  
+**Cloud Hosting:**  
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-%23327FC7.svg?style=for-the-badge&logo=github&logoColor=white)  
 
-</p>
+**OS & Tools:**  
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)  
+
+**Extras:**  
+![Terminal](https://img.shields.io/badge/Terminal-%23054020?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)  
 
 ---
 
@@ -60,10 +54,10 @@
 
 ## 🌐 Let's Connect
 <p align="left">
-<a href="https://linkedin.com/in/yourlinkedin" target="_blank">
+<a href="https://linkedin.com/in/udaybhale" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-%2300acee.svg?color=405DE6&style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>  
-<a href="mailto:yourmail@gmail.com" target="_blank">
+<a href="mailto:rudraub@gmail.com" target="_blank">
   <img src="https://img.shields.io/badge/Gmail-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>  
 </p>
