@@ -110,21 +110,34 @@
     <g transform="translate(460, 530)">
         <rect width="320" height="150" fill="#11151c" stroke="#00ffff" stroke-width="1" rx="8" />
         <text x="20" y="30" class="glow-text-cyan" font-family="Courier New" font-size="16" font-weight="bold">Core Skills</text>
-        <g transform="translate(20, 50)" style="animation: float 4s ease-in-out infinite;">
-            <rect x="0" y="0" width="130" height="28" rx="5" fill="rgba(0,255,0,0.1)" stroke="#0f0" />
-            <text x="65" y="19" fill="#0f0" font-family="Courier New" font-size="13" text-anchor="middle" font-weight="bold">Kali Linux</text>
+        
+        <!-- Outer group for position, inner group for float animation -->
+        <g transform="translate(20, 50)">
+            <g style="animation: float 4s ease-in-out infinite;">
+                <rect x="0" y="0" width="130" height="28" rx="5" fill="rgba(0,255,0,0.1)" stroke="#0f0" />
+                <text x="65" y="19" fill="#0f0" font-family="Courier New" font-size="13" text-anchor="middle" font-weight="bold">Kali Linux</text>
+            </g>
         </g>
-        <g transform="translate(170, 50)" style="animation: float 4.5s ease-in-out infinite;">
-            <rect x="0" y="0" width="130" height="28" rx="5" fill="rgba(0,255,255,0.1)" stroke="#00ffff" />
-            <text x="65" y="19" fill="#00ffff" font-family="Courier New" font-size="13" text-anchor="middle" font-weight="bold">Burp Suite</text>
+        
+        <g transform="translate(170, 50)">
+            <g style="animation: float 4.5s ease-in-out infinite;">
+                <rect x="0" y="0" width="130" height="28" rx="5" fill="rgba(0,255,255,0.1)" stroke="#00ffff" />
+                <text x="65" y="19" fill="#00ffff" font-family="Courier New" font-size="13" text-anchor="middle" font-weight="bold">Burp Suite</text>
+            </g>
         </g>
-        <g transform="translate(20, 100)" style="animation: float 5s ease-in-out infinite;">
-            <rect x="0" y="0" width="130" height="28" rx="5" fill="rgba(255,0,255,0.1)" stroke="#ff00ff" />
-            <text x="65" y="19" fill="#ff00ff" font-family="Courier New" font-size="13" text-anchor="middle" font-weight="bold">Nmap</text>
+
+        <g transform="translate(20, 100)">
+            <g style="animation: float 5s ease-in-out infinite;">
+                <rect x="0" y="0" width="130" height="28" rx="5" fill="rgba(255,0,255,0.1)" stroke="#ff00ff" />
+                <text x="65" y="19" fill="#ff00ff" font-family="Courier New" font-size="13" text-anchor="middle" font-weight="bold">Nmap</text>
+            </g>
         </g>
-        <g transform="translate(170, 100)" style="animation: float 4.2s ease-in-out infinite;">
-            <rect x="0" y="0" width="130" height="28" rx="5" fill="rgba(255,165,0,0.1)" stroke="#ffa500" />
-            <text x="65" y="19" fill="#ffa500" font-family="Courier New" font-size="13" text-anchor="middle" font-weight="bold">Metasploit</text>
+
+        <g transform="translate(170, 100)">
+            <g style="animation: float 4.2s ease-in-out infinite;">
+                <rect x="0" y="0" width="130" height="28" rx="5" fill="rgba(255,165,0,0.1)" stroke="#ffa500" />
+                <text x="65" y="19" fill="#ffa500" font-family="Courier New" font-size="13" text-anchor="middle" font-weight="bold">Metasploit</text>
+            </g>
         </g>
     </g>
 
@@ -135,11 +148,11 @@
         <circle cx="175" cy="175" r="160" fill="none" stroke="rgba(0, 255, 0, 0.4)" stroke-width="4" />
         
         <g clip-path="url(#avatar-clip)">
-            <!-- REPLACE THE FILE NAME BELOW WITH YOUR ACTUAL IMAGE NAME -->
+            <!-- Make sure character.png is uploaded to the same folder! -->
             <image href="character.png" x="0" y="0" width="350" height="350" preserveAspectRatio="xMidYMid slice" style="animation: hologram 4s infinite;" />
-            <!-- Scanner Beam -->
             <rect class="scan-line" x="0" y="0" width="350" height="20" />
         </g>
+        
         <!-- About me overlay -->
         <g transform="translate(0, 370)">
             <rect width="350" height="150" fill="rgba(17, 21, 28, 0.8)" stroke="#0f0" stroke-width="1" rx="10" />
