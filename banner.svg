@@ -28,7 +28,6 @@
             .text-role { font-family: 'Courier New', monospace; font-size: 28px; fill: #00ffff; }
             .text-term { font-family: 'Courier New', monospace; font-size: 20px; fill: #0f0; }
             .cursor { display: inline-block; width: 12px; height: 24px; background: #0f0; animation: blink 1s step-end infinite; }
-            .badge { font-family: Arial, sans-serif; font-size: 14px; fill: #fff; }
             .scan-line { fill: rgba(0, 255, 255, 0.2); animation: scan 3.5s linear infinite; }
         </style>
         <linearGradient id="neonGlow" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -36,16 +35,8 @@
             <stop offset="100%" stop-color="#0f0" />
         </linearGradient>
         <clipPath id="avatar-clip">
-            <rect x="850" y="150" width="350" height="400" rx="20" />
+            <circle cx="175" cy="175" r="170" />
         </clipPath>
-        <filter id="glitch">
-            <feOffset dx="2" dy="0" in="SourceGraphic" result="red-glitch"/>
-            <feColorMatrix type="matrix" values="1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0" in="red-glitch" result="red-glitch-color"/>
-            <feMerge>
-                <feMergeNode in="red-glitch-color"/>
-                <feMergeNode in="SourceGraphic"/>
-            </feMerge>
-        </filter>
     </defs>
 
     <rect class="bg" width="1280" height="740" rx="15" />
@@ -101,10 +92,10 @@
 
     <!-- Code Editor Card -->
     <g transform="translate(60, 530)">
-        <rect width="400" height="150" fill="#1e1e1e" stroke="#333" stroke-width="2" rx="8" />
-        <rect width="400" height="25" fill="#2d2d2d" rx="8" />
+        <rect width="380" height="150" fill="#1e1e1e" stroke="#333" stroke-width="2" rx="8" />
+        <rect width="380" height="25" fill="#2d2d2d" rx="8" />
         <text x="15" y="17" fill="#ccc" font-family="Courier New" font-size="12">automation.py</text>
-        <foreignObject x="15" y="35" width="370" height="100">
+        <foreignObject x="15" y="35" width="350" height="100">
             <div xmlns="http://www.w3.org/1999/xhtml" style="color: #d4d4d4; font-family: 'Courier New', monospace; font-size: 14px; line-height: 1.5; white-space: pre;">
 <span style="color: #c586c0;">import</span> requests
 <span style="color: #c586c0;">def</span> <span style="color: #dcdcaa;">check_vuln</span>(url):
@@ -116,24 +107,24 @@
     </g>
 
     <!-- Floating Badges / Skills -->
-    <g transform="translate(480, 530)">
-        <rect width="280" height="150" fill="#11151c" stroke="#00ffff" stroke-width="1" rx="8" />
+    <g transform="translate(460, 530)">
+        <rect width="320" height="150" fill="#11151c" stroke="#00ffff" stroke-width="1" rx="8" />
         <text x="20" y="30" class="glow-text-cyan" font-family="Courier New" font-size="16" font-weight="bold">Core Skills</text>
         <g transform="translate(20, 50)" style="animation: float 4s ease-in-out infinite;">
-            <rect x="0" y="0" width="100" height="25" rx="5" fill="rgba(0,255,0,0.1)" stroke="#0f0" />
-            <text x="50" y="17" fill="#0f0" font-family="Courier New" font-size="12" text-anchor="middle">Kali Linux</text>
+            <rect x="0" y="0" width="130" height="28" rx="5" fill="rgba(0,255,0,0.1)" stroke="#0f0" />
+            <text x="65" y="19" fill="#0f0" font-family="Courier New" font-size="13" text-anchor="middle" font-weight="bold">Kali Linux</text>
         </g>
-        <g transform="translate(140, 50)" style="animation: float 4.5s ease-in-out infinite;">
-            <rect x="0" y="0" width="100" height="25" rx="5" fill="rgba(0,255,255,0.1)" stroke="#00ffff" />
-            <text x="50" y="17" fill="#00ffff" font-family="Courier New" font-size="12" text-anchor="middle">Burp Suite</text>
+        <g transform="translate(170, 50)" style="animation: float 4.5s ease-in-out infinite;">
+            <rect x="0" y="0" width="130" height="28" rx="5" fill="rgba(0,255,255,0.1)" stroke="#00ffff" />
+            <text x="65" y="19" fill="#00ffff" font-family="Courier New" font-size="13" text-anchor="middle" font-weight="bold">Burp Suite</text>
         </g>
-        <g transform="translate(20, 90)" style="animation: float 5s ease-in-out infinite;">
-            <rect x="0" y="0" width="100" height="25" rx="5" fill="rgba(255,0,255,0.1)" stroke="#ff00ff" />
-            <text x="50" y="17" fill="#ff00ff" font-family="Courier New" font-size="12" text-anchor="middle">Nmap</text>
+        <g transform="translate(20, 100)" style="animation: float 5s ease-in-out infinite;">
+            <rect x="0" y="0" width="130" height="28" rx="5" fill="rgba(255,0,255,0.1)" stroke="#ff00ff" />
+            <text x="65" y="19" fill="#ff00ff" font-family="Courier New" font-size="13" text-anchor="middle" font-weight="bold">Nmap</text>
         </g>
-        <g transform="translate(140, 90)" style="animation: float 4.2s ease-in-out infinite;">
-            <rect x="0" y="0" width="100" height="25" rx="5" fill="rgba(255,165,0,0.1)" stroke="#ffa500" />
-            <text x="50" y="17" fill="#ffa500" font-family="Courier New" font-size="12" text-anchor="middle">Metasploit</text>
+        <g transform="translate(170, 100)" style="animation: float 4.2s ease-in-out infinite;">
+            <rect x="0" y="0" width="130" height="28" rx="5" fill="rgba(255,165,0,0.1)" stroke="#ffa500" />
+            <text x="65" y="19" fill="#ffa500" font-family="Courier New" font-size="13" text-anchor="middle" font-weight="bold">Metasploit</text>
         </g>
     </g>
 
@@ -144,8 +135,8 @@
         <circle cx="175" cy="175" r="160" fill="none" stroke="rgba(0, 255, 0, 0.4)" stroke-width="4" />
         
         <g clip-path="url(#avatar-clip)">
-            <!-- REPLACE THE DATA URI BELOW WITH YOUR ACTUAL BASE64 IMAGE -->
-            <image href="character.png" x="0" y="0" width="350" height="350" style="animation: hologram 4s infinite;" />
+            <!-- REPLACE THE FILE NAME BELOW WITH YOUR ACTUAL IMAGE NAME -->
+            <image href="character.png" x="0" y="0" width="350" height="350" preserveAspectRatio="xMidYMid slice" style="animation: hologram 4s infinite;" />
             <!-- Scanner Beam -->
             <rect class="scan-line" x="0" y="0" width="350" height="20" />
         </g>
