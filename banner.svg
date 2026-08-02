@@ -145,7 +145,7 @@
         
         <g clip-path="url(#avatar-clip)">
             <!-- REPLACE THE DATA URI BELOW WITH YOUR ACTUAL BASE64 IMAGE -->
-            <image href="data:image/png;base64,PASTE_YOUR_BASE64_HERE" x="0" y="0" width="350" height="350" style="animation: hologram 4s infinite;" />
+            <image href="character.png" x="0" y="0" width="350" height="350" style="animation: hologram 4s infinite;" />
             <!-- Scanner Beam -->
             <rect class="scan-line" x="0" y="0" width="350" height="20" />
         </g>
