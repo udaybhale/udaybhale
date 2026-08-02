@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+    <style>
+        .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1; rx: 8; }
+        .text { font-family: 'Courier New', monospace; fill: #c9d1d9; }
+        .title { font-size: 16px; font-weight: bold; fill: #ff00ff; }
+        @keyframes shine { 0% { opacity: 0.5; filter: drop-shadow(0 0 2px #fff); } 50% { opacity: 1; filter: drop-shadow(0 0 10px #ffea00); } 100% { opacity: 0.5; filter: drop-shadow(0 0 2px #fff); } }
+        .trophy { animation: shine 3s infinite; }
+    </style>
+    <rect class="bg" width="398" height="198" x="1" y="1" />
+    <text x="20" y="30" class="text title">> Cyber Trophies</text>
+    
+    <g transform="translate(40, 80)">
+        <path class="trophy" d="M10,0 L40,0 L35,30 Q25,50 25,60 L15,60 Q15,40 15,30 Z M20,60 L30,60 L35,70 L15,70 Z" fill="#ffbd2e" />
+        <text x="25" y="90" class="text" font-size="12" text-anchor="middle">Bug Hunter</text>
+    </g>
+    <g transform="translate(160, 80)">
+        <path class="trophy" d="M10,0 L40,0 L35,30 Q25,50 25,60 L15,60 Q15,40 15,30 Z M20,60 L30,60 L35,70 L15,70 Z" fill="#27c93f" />
+        <text x="25" y="90" class="text" font-size="12" text-anchor="middle">Rooted</text>
+    </g>
+    <g transform="translate(280, 80)">
+        <path class="trophy" d="M10,0 L40,0 L35,30 Q25,50 25,60 L15,60 Q15,40 15,30 Z M20,60 L30,60 L35,70 L15,70 Z" fill="#58a6ff" />
+        <text x="25" y="90" class="text" font-size="12" text-anchor="middle">Top 100</text>
+    </g>
+</svg>

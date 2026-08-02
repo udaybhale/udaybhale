@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+    <style>
+        .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1; rx: 8; }
+        .text { font-family: 'Courier New', monospace; fill: #c9d1d9; }
+        .title { font-size: 16px; font-weight: bold; fill: #0f0; }
+        .label { font-size: 14px; fill: #8b949e; }
+        .value { font-size: 14px; font-weight: bold; fill: #58a6ff; }
+        @keyframes fill { from { stroke-dasharray: 0 100; } to { stroke-dasharray: 85 100; } }
+        .circle-progress { fill: none; stroke: #0f0; stroke-width: 8; stroke-dasharray: 85 100; animation: fill 2s ease-out forwards; }
+    </style>
+    <rect class="bg" width="398" height="198" x="1" y="1" />
+    <text x="20" y="30" class="text title">> Hacker Stats</text>
+    
+    <g transform="translate(20, 60)">
+        <text x="0" y="15" class="text label">Total Commits</text> <text x="150" y="15" class="text value">400+</text>
+        <text x="0" y="45" class="text label">PRs Opened</text>    <text x="150" y="45" class="text value">25+</text>
+        <text x="0" y="75" class="text label">Issues</text>        <text x="150" y="75" class="text value">15</text>
+        <text x="0" y="105" class="text label">Contribs</text>     <text x="150" y="105" class="text value">350+</text>
+    </g>
+
+    <g transform="translate(280, 100)">
+        <circle cx="0" cy="0" r="40" fill="none" stroke="#21262d" stroke-width="8" />
+        <circle cx="0" cy="0" r="40" class="circle-progress" pathLength="100" transform="rotate(-90)" />
+        <text x="0" y="5" class="text title" text-anchor="middle">S</text>
+        <text x="0" y="20" class="text label" font-size="10" text-anchor="middle">Rank</text>
+    </g>
+</svg>

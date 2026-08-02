@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 740" width="1280" height="740">
+    <defs>
+        <style>
+            @keyframes typing { from { width: 0; } to { width: 100%; } }
+            @keyframes blink { 50% { opacity: 0; } }
+            @keyframes scan { 0% { transform: translateY(-100%); } 100% { transform: translateY(100%); } }
+            @keyframes pulse { 0% { opacity: 0.7; box-shadow: 0 0 10px #0f0; } 50% { opacity: 1; box-shadow: 0 0 20px #0f0; } 100% { opacity: 0.7; box-shadow: 0 0 10px #0f0; } }
+            @keyframes float { 0% { transform: translateY(0px); } 50% { transform: translateY(-10px); } 100% { transform: translateY(0px); } }
+            @keyframes rain { 0% { transform: translateY(-50px); opacity: 0;} 50% { opacity: 1; } 100% { transform: translateY(800px); opacity: 0;} }
+            @keyframes cycleRoles { 
+                0%, 15% { content: "Ethical Hacker"; } 
+                20%, 35% { content: "Penetration Tester"; } 
+                40%, 55% { content: "Cybersecurity Researcher"; } 
+                60%, 75% { content: "Web Security Enthusiast"; } 
+                80%, 95% { content: "Bug Bounty Learner"; } 
+                100% { content: "Ethical Hacker"; }
+            }
+            @keyframes widthGrow { from { width: 0; } }
+            @keyframes drawCircle { from { stroke-dashoffset: 283; } to { stroke-dashoffset: 60; } }
+            @keyframes hologram { 0% { opacity: 0.5; filter: hue-rotate(0deg); } 50% { opacity: 0.9; filter: hue-rotate(90deg); } 100% { opacity: 0.5; filter: hue-rotate(0deg); } }
+            .matrix text { font-family: 'Courier New', monospace; font-size: 14px; fill: #0f0; opacity: 0; animation: rain 4s linear infinite; }
+            .glow-text { filter: drop-shadow(0 0 5px #0f0) drop-shadow(0 0 10px #0f0); fill: #0f0; }
+            .glow-text-cyan { filter: drop-shadow(0 0 5px #00ffff); fill: #00ffff; }
+            .bg { fill: #0a0e14; }
+            .terminal { fill: #11151c; stroke: #333; stroke-width: 2; rx: 10; }
+            .term-header { fill: #1e2430; rx: 10; }
+            .text-title { font-family: 'Courier New', monospace; font-weight: bold; font-size: 48px; }
+            .text-role { font-family: 'Courier New', monospace; font-size: 28px; fill: #00ffff; }
+            .text-term { font-family: 'Courier New', monospace; font-size: 20px; fill: #0f0; }
+            .cursor { display: inline-block; width: 12px; height: 24px; background: #0f0; animation: blink 1s step-end infinite; }
+            .badge { font-family: Arial, sans-serif; font-size: 14px; fill: #fff; }
+            .scan-line { fill: rgba(0, 255, 255, 0.2); animation: scan 3.5s linear infinite; }
+        </style>
+        <linearGradient id="neonGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#00ffff" />
+            <stop offset="100%" stop-color="#0f0" />
+        </linearGradient>
+        <clipPath id="avatar-clip">
+            <rect x="850" y="150" width="350" height="400" rx="20" />
+        </clipPath>
+        <filter id="glitch">
+            <feOffset dx="2" dy="0" in="SourceGraphic" result="red-glitch"/>
+            <feColorMatrix type="matrix" values="1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0" in="red-glitch" result="red-glitch-color"/>
+            <feMerge>
+                <feMergeNode in="red-glitch-color"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+
+    <rect class="bg" width="1280" height="740" rx="15" />
+    
+    <!-- Matrix Rain Background -->
+    <g class="matrix">
+        <text x="50" y="-10" style="animation-delay: 0.1s;">01001000 01100001 01100011 01101011</text>
+        <text x="250" y="-10" style="animation-delay: 1.2s;">01010011 01100101 01100011 01110101</text>
+        <text x="450" y="-10" style="animation-delay: 0.5s;">01110010 01100101</text>
+        <text x="750" y="-10" style="animation-delay: 2.1s;">01110010 01101111 01101111 01110100</text>
+        <text x="1050" y="-10" style="animation-delay: 1.8s;">01110011 01111001 01110011 01110100 01100101 01101101</text>
+        <text x="1150" y="-10" style="animation-delay: 0.9s;">01100010 01111001 01110100 01100101</text>
+    </g>
+
+    <!-- Grid -->
+    <g stroke="rgba(0, 255, 255, 0.05)" stroke-width="1">
+        <path d="M0,100 L1280,100 M0,200 L1280,200 M0,300 L1280,300 M0,400 L1280,400 M0,500 L1280,500 M0,600 L1280,600 M0,700 L1280,700" />
+        <path d="M100,0 L100,740 M200,0 L200,740 M300,0 L300,740 M400,0 L400,740 M500,0 L500,740 M600,0 L600,740 M700,0 L700,740 M800,0 L800,740 M900,0 L900,740 M1000,0 L1000,740 M1100,0 L1100,740 M1200,0 L1200,740" />
+    </g>
+
+    <!-- Neon Sign -->
+    <text x="640" y="70" class="text-title glow-text" text-anchor="middle" style="font-size: 36px; letter-spacing: 5px;">HACK • LEARN • SECURE • REPEAT</text>
+
+    <!-- Main Terminal -->
+    <g transform="translate(60, 150)">
+        <rect class="terminal" width="700" height="350" />
+        <rect class="term-header" width="700" height="30" />
+        <circle cx="20" cy="15" r="6" fill="#ff5f56" />
+        <circle cx="40" cy="15" r="6" fill="#ffbd2e" />
+        <circle cx="60" cy="15" r="6" fill="#27c93f" />
+        <text x="350" y="20" fill="#888" font-family="Courier New" font-size="14" text-anchor="middle">user@kali: ~/portfolio</text>
+        
+        <foreignObject x="20" y="50" width="660" height="280">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="color: #0f0; font-family: 'Courier New', monospace; font-size: 18px; line-height: 1.6;">
+                <div style="color: #fff;">user@kali:~$ <span style="color: #0ff;">./portfolio.sh</span></div>
+                <br/>
+                <div style="font-size: 28px; font-weight: bold; color: #fff; text-shadow: 0 0 8px #0f0;">
+                    Hi, I'm Uday Bhale
+                </div>
+                <div style="color: #0ff; font-size: 22px; margin-top: 10px; min-height: 30px;">
+                    > <span style="animation: cycleRoles 10s infinite; display: inline-block;">Ethical Hacker</span><span class="cursor"></span>
+                </div>
+                <br/>
+                <div style="border-left: 3px solid #0f0; padding-left: 10px; color: #aaa; font-style: italic;">
+                    "Think like an attacker. Build like a defender."
+                </div>
+                <br/>
+                <div style="color: #fff;">[+] Initiating scan...</div>
+                <div style="color: #fff;">[+] Modules loaded: <span style="color: #ff5f56;">nmap</span>, <span style="color: #ffbd2e;">gobuster</span>, <span style="color: #27c93f;">burpsuite</span></div>
+            </div>
+        </foreignObject>
+    </g>
+
+    <!-- Code Editor Card -->
+    <g transform="translate(60, 530)">
+        <rect width="400" height="150" fill="#1e1e1e" stroke="#333" stroke-width="2" rx="8" />
+        <rect width="400" height="25" fill="#2d2d2d" rx="8" />
+        <text x="15" y="17" fill="#ccc" font-family="Courier New" font-size="12">automation.py</text>
+        <foreignObject x="15" y="35" width="370" height="100">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="color: #d4d4d4; font-family: 'Courier New', monospace; font-size: 14px; line-height: 1.5; white-space: pre;">
+<span style="color: #c586c0;">import</span> requests
+<span style="color: #c586c0;">def</span> <span style="color: #dcdcaa;">check_vuln</span>(url):
+    res = requests.get(url)
+    <span style="color: #c586c0;">if</span> res.status_code == <span style="color: #b5cea8;">200</span>:
+        <span style="color: #dcdcaa;">print</span>(<span style="color: #ce9178;">"Target acquired."</span>)
+            </div>
+        </foreignObject>
+    </g>
+
+    <!-- Floating Badges / Skills -->
+    <g transform="translate(480, 530)">
+        <rect width="280" height="150" fill="#11151c" stroke="#00ffff" stroke-width="1" rx="8" />
+        <text x="20" y="30" class="glow-text-cyan" font-family="Courier New" font-size="16" font-weight="bold">Core Skills</text>
+        <g transform="translate(20, 50)" style="animation: float 4s ease-in-out infinite;">
+            <rect x="0" y="0" width="100" height="25" rx="5" fill="rgba(0,255,0,0.1)" stroke="#0f0" />
+            <text x="50" y="17" fill="#0f0" font-family="Courier New" font-size="12" text-anchor="middle">Kali Linux</text>
+        </g>
+        <g transform="translate(140, 50)" style="animation: float 4.5s ease-in-out infinite;">
+            <rect x="0" y="0" width="100" height="25" rx="5" fill="rgba(0,255,255,0.1)" stroke="#00ffff" />
+            <text x="50" y="17" fill="#00ffff" font-family="Courier New" font-size="12" text-anchor="middle">Burp Suite</text>
+        </g>
+        <g transform="translate(20, 90)" style="animation: float 5s ease-in-out infinite;">
+            <rect x="0" y="0" width="100" height="25" rx="5" fill="rgba(255,0,255,0.1)" stroke="#ff00ff" />
+            <text x="50" y="17" fill="#ff00ff" font-family="Courier New" font-size="12" text-anchor="middle">Nmap</text>
+        </g>
+        <g transform="translate(140, 90)" style="animation: float 4.2s ease-in-out infinite;">
+            <rect x="0" y="0" width="100" height="25" rx="5" fill="rgba(255,165,0,0.1)" stroke="#ffa500" />
+            <text x="50" y="17" fill="#ffa500" font-family="Courier New" font-size="12" text-anchor="middle">Metasploit</text>
+        </g>
+    </g>
+
+    <!-- Character Avatar Frame -->
+    <g transform="translate(830, 150)">
+        <!-- Hologram ring background -->
+        <circle cx="175" cy="175" r="170" fill="none" stroke="rgba(0, 255, 255, 0.3)" stroke-width="2" stroke-dasharray="10 5" style="animation: drawCircle 10s linear infinite;" />
+        <circle cx="175" cy="175" r="160" fill="none" stroke="rgba(0, 255, 0, 0.4)" stroke-width="4" />
+        
+        <g clip-path="url(#avatar-clip)">
+            <!-- REPLACE THE DATA URI BELOW WITH YOUR ACTUAL BASE64 IMAGE -->
+            <image href="data:image/png;base64,PASTE_YOUR_BASE64_HERE" x="0" y="0" width="350" height="350" style="animation: hologram 4s infinite;" />
+            <!-- Scanner Beam -->
+            <rect class="scan-line" x="0" y="0" width="350" height="20" />
+        </g>
+        <!-- About me overlay -->
+        <g transform="translate(0, 370)">
+            <rect width="350" height="150" fill="rgba(17, 21, 28, 0.8)" stroke="#0f0" stroke-width="1" rx="10" />
+            <text x="175" y="25" fill="#00ffff" font-family="Courier New" font-size="16" font-weight="bold" text-anchor="middle">sysinfo</text>
+            <text x="20" y="55" fill="#fff" font-family="Courier New" font-size="14">> BCA Graduate</text>
+            <text x="20" y="80" fill="#fff" font-family="Courier New" font-size="14">> Offensive Sec Enthusiast</text>
+            <text x="20" y="105" fill="#fff" font-family="Courier New" font-size="14">> Passionate abt Web Sec</text>
+            <text x="20" y="130" fill="#fff" font-family="Courier New" font-size="14">> Building Practical Labs</text>
+        </g>
+    </g>
+</svg>
