@@ -6,7 +6,7 @@
   <img alt="Uday Bhale Banner" src="banner.svg?v=1" width="100%">
 </picture>
 
-*(Note: The embedded character image in the banner is a placeholder. You can replace the Base64 string in `banner.svg` and `lanyard.svg` with your actual background-removed avatar!)*
+
 
 ---
 
