@@ -4,7 +4,7 @@
   <img alt="Uday Bhale Banner" src="banner.svg?v=1" width="100%">
 </picture>---
 
-🕵️‍♂️ About Me
+**🕵️‍♂️ About Me**
 
 I'm an Ethical Hacker and Penetration Tester focused on identifying vulnerabilities, assessing attack surfaces, and improving application and infrastructure security.
 
@@ -17,7 +17,7 @@ I'm an Ethical Hacker and Penetration Tester focused on identifying vulnerabilit
 - 🌱 Currently Learning: Web Application Pentesting, API Security, Active Directory & Bug Bounty Methodologies
 - 📝 Write-ups: Security labs, techniques, findings & lessons learned
 
-🔗 Connect & Explore
+**🔗 Connect & Explore**
 
 <p align="center"><a href="https://udaybhale-portfolio.lovable.app/">
 <img src="https://img.shields.io/badge/Portfolio-Visit-0A0A0A?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
@@ -33,7 +33,7 @@ I'm an Ethical Hacker and Penetration Tester focused on identifying vulnerabilit
 <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a></p>---
 
-🛡️ Skills & Technologies
+**🛡️ Skills & Technologies**
 
 🔴 Offensive Security
 
