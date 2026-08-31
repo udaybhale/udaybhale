@@ -60,10 +60,6 @@ I'm an Ethical Hacker and Penetration Tester focused on identifying vulnerabilit
 <p align="center"><img src="https://img.shields.io/badge/CCNA-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="CCNA"/>
 <img src="https://img.shields.io/badge/IPv4-005571?style=for-the-badge&logoColor=white" alt="IPv4"/>
 <img src="https://img.shields.io/badge/VLAN-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="VLAN"/>
-<img src="https://img.shields.io/badge/OSPF-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="OSPF"/>
-<img src="https://img.shields.io/badge/EIGRP-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="EIGRP"/>
-<img src="https://img.shields.io/badge/RIP_v2-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="RIP v2"/>
-<img src="https://img.shields.io/badge/STP-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="STP"/>
 <img src="https://img.shields.io/badge/NAT-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="NAT"/>
 <img src="https://img.shields.io/badge/DHCP-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="DHCP"/>
 <img src="https://img.shields.io/badge/DNS-1BA0D7?style=for-the-badge&logoColor=white" alt="DNS"/>
