@@ -25,7 +25,7 @@ I'm an Ethical Hacker and Penetration Tester focused on identifying vulnerabilit
 <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a><a href="https://www.linkedin.com/in/udaybhale">
 <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a><a href="https://tryhackme.com/p/rudraub">
+</a><a href="https://tryhackme.com/p/rudraub"><br>
 <img src="https://img.shields.io/badge/TryHackMe-Profile-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" alt="TryHackMe"/>
 </a><a href="https://hackwithrudraub.hashnode.dev/">
 <img src="https://img.shields.io/badge/Hashnode-Security_Blog-2962FF?style=for-the-badge&logo=hashnode&logoColor=white" alt="Hashnode"/>
