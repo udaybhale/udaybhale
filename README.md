@@ -92,7 +92,7 @@ I'm an Ethical Hacker and Penetration Tester focused on identifying vulnerabilit
 
 <p align="center"><img src="https://img.shields.io/badge/CCNA-Networking-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="CCNA"/>
 <img src="https://img.shields.io/badge/RHCSA-Linux-EE0000?style=for-the-badge&logo=redhat&logoColor=white" alt="RHCSA"/>
-<img src="https://img.shields.io/badge/CEH-Ethical_Hacking-111111?style=for-the-badge&logoColor=white" alt="CEH"/>
+<img src="https://img.shields.io/badge/CEH-Ethical_Hacking-111111?style=for-the-badge&logoColor=white" alt="CEH"/><br>
 <img src="https://img.shields.io/badge/Cisco-Cybersecurity-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco Cybersecurity"/>
 <img src="https://img.shields.io/badge/OPSWAT-Critical_Infrastructure-00A88F?style=for-the-badge&logoColor=white" alt="OPSWAT"/></p>---
 
